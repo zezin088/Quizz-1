@@ -52,7 +52,7 @@ class PerguntasSeeder extends Seeder
             'opcao_a' => 'Espanha',
             'opcao_b' => 'Itália',
             'opcao_c' => 'México',
-            'opcao_d' => 'México',
+            'opcao_d' => 'Brasil',
             'resposta_correta' => 'B',
             'imagem' => null,
             'pontos' => 1,
