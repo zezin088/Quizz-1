@@ -131,7 +131,7 @@
         <div class="row mt-4">
             <div class="col-lg-8 mx-auto">
 
-                <form action="{{ route('enviarRespostas') }}" method="POST">
+                <form action="{{ route('quizz.responder') }}" method="POST">
                     @csrf
                     @foreach($perguntas as $pergunta)
                         <div class="card mb-4 p-3">
@@ -170,8 +170,7 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
-                    @endforeach
+                        @endforeach
 
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary btn-lg mt-3">Enviar Respostas</button>

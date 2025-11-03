@@ -9,3 +9,6 @@ Route::get('/', [PerguntaController::class, 'inicio'])
 
 Route::get('/responder', [PerguntaController::class, 'responder'])
     ->name('responder');
+
+Route::post('/quizz/responder', [PerguntaController::class, 'processarRespostas'])
+    ->name('quizz.responder');
